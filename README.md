@@ -17,5 +17,5 @@ Python：3.8
 ### 4
 运行'train.py'。
 ## 注意
-此仓库暂不支持多GPU训练。
+此仓库暂不支持多GPU训练。  
 此仓库还有'eval.py'与'predict.py'正在编写，敬请等候。

@@ -5,7 +5,17 @@
 所用数据集为COCO2017数据集，backbone为ResNet-101-FPN。
 ## 环境
 系统：Ubuntu20.04  
-Python：3.8
-## 运行
+Python：3.8  
+
+## 训练
 ### 1
 自行下载COCO2017数据集并将图片文件与注释文件放在'coco'文件夹下。
+### 2
+在'coco/PythonAPI'文件夹下运行`make`
+### 3
+在'cfg.py'与'train.py'文件中适当修改相应超参数与设置。
+### 4
+运行'train.py'。
+## 注意
+此仓库暂不支持多GPU训练。
+此仓库还有'eval.py'与'predict.py'正在编写，敬请等候。

@@ -6,7 +6,9 @@
 ## 环境
 系统：Ubuntu20.04  
 Python：3.8  
-
+opencv-python：4.6.0.66  
+torch：1.13.0  
+torchvision：0.14.0
 ## 训练
 ### 1
 自行下载COCO2017数据集并将图片文件与注释文件放在'coco'文件夹下。
@@ -15,7 +17,8 @@ Python：3.8
 ### 3
 在'cfg.py'与'train.py'文件中适当修改相应超参数与设置。
 ### 4
-运行'train.py'。
+运行'train.py'。  
+#### 初次训练时可能需要下载ResNet的预训练权重，注意联网。
 ## 注意
 此仓库暂不支持多GPU训练。  
 此仓库还有'eval.py'与'predict.py'正在编写，敬请等候。

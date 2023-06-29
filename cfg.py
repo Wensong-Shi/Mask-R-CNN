@@ -8,6 +8,7 @@ NUM_CLASSES = 81
 NUM_WORKERS = 2  # 可根据CPU核心数修改
 PIN_MEMORY = False  # 如果内存充足可以设置为True，以此来提高速度
 BATCH_SIZE = 1
+# 这里我计算的这组数值可能存在问题
 IMAGE_NORMALIZE_INFO = {'mean_rgb': (0.4694, 0.4460, 0.4066), 'std_rgb': (0.2793, 0.2745, 0.2882)}  # 可根据自己的数据集计算并修改
 SHORT_SIDE = 800
 
